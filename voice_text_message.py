@@ -17,7 +17,7 @@ driver.get("https://web.whatsapp.com/")
 #     print(message)
 input()
 
-name="Mummy"
+name="Target_name"
 
 
 user = driver.find_element_by_xpath("//span[@title='{}']".format(name))
